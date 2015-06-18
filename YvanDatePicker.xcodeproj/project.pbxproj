@@ -14,6 +14,7 @@
 		5B7B80AD1B32993C00E2627A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B7B80AC1B32993C00E2627A /* Images.xcassets */; };
 		5B7B80B01B32993C00E2627A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B7B80AE1B32993C00E2627A /* LaunchScreen.xib */; };
 		5B7B80BC1B32993D00E2627A /* YvanDatePickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7B80BB1B32993D00E2627A /* YvanDatePickerTests.m */; };
+		5B7B80C71B32995400E2627A /* YvanDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7B80C61B32995400E2627A /* YvanDatePicker.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		5B7B80B51B32993D00E2627A /* YvanDatePickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YvanDatePickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B7B80BA1B32993D00E2627A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B7B80BB1B32993D00E2627A /* YvanDatePickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YvanDatePickerTests.m; sourceTree = "<group>"; };
+		5B7B80C51B32995400E2627A /* YvanDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YvanDatePicker.h; sourceTree = "<group>"; };
+		5B7B80C61B32995400E2627A /* YvanDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YvanDatePicker.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		5B7B809E1B32993C00E2627A /* YvanDatePicker */ = {
 			isa = PBXGroup;
 			children = (
+				5B7B80C81B32996800E2627A /* DatePicker */,
 				5B7B80A31B32993C00E2627A /* AppDelegate.h */,
 				5B7B80A41B32993C00E2627A /* AppDelegate.m */,
 				5B7B80A61B32993C00E2627A /* ViewController.h */,
@@ -117,6 +121,15 @@
 				5B7B80BA1B32993D00E2627A /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5B7B80C81B32996800E2627A /* DatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				5B7B80C51B32995400E2627A /* YvanDatePicker.h */,
+				5B7B80C61B32995400E2627A /* YvanDatePicker.m */,
+			);
+			name = DatePicker;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B7B80A81B32993C00E2627A /* ViewController.m in Sources */,
+				5B7B80C71B32995400E2627A /* YvanDatePicker.m in Sources */,
 				5B7B80A51B32993C00E2627A /* AppDelegate.m in Sources */,
 				5B7B80A21B32993C00E2627A /* main.m in Sources */,
 			);
